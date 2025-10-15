@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+
+# Build outputs
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# BMad generated
+.bmad-core/
+web-bundles/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.tsbuildinfo
