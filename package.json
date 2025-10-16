@@ -10,7 +10,8 @@
     "type-check": "pnpm --filter web type-check && pnpm --filter \"./packages/**\" type-check",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "prepare": "husky"
+    "prepare": "husky",
+    "prisma:generate": "prisma generate"
   },
   "devDependencies": {
     "eslint-config-prettier": "^10.1.8",
@@ -20,6 +21,7 @@
     "prettier": "^3.6.2",
     "typescript": "5.7.2"
   },
+  "packageManager": "pnpm@10.18.1",
   "engines": {
     "node": ">=20.0.0",
     "pnpm": ">=8.0.0"
@@ -35,5 +37,9 @@
     "*.{json,md}": [
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "@prisma/client": "^6.17.1",
+    "prisma": "^6.17.1"
   }
 }
