@@ -4,7 +4,5 @@
       "path": "/api/cron/cleanup-sessions",
       "schedule": "0 2 * * *"
     }
-  ],
-  "buildCommand": "cd ../.. && pnpm install && pnpm --filter web build",
-  "installCommand": "pnpm install"
+  ]
 }
